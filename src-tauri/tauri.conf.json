@@ -7,7 +7,7 @@
     "withGlobalTauri": false
   },
   "package": {
-    "productName": "app",
+    "productName": "Stopwatch",
     "version": "0.0.0"
   },
   "tauri": {
@@ -62,7 +62,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "app",
+        "title": "Stopwatch",
         "width": 800
       }
     ]

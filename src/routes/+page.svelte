@@ -2,8 +2,6 @@
   import Greet from "$lib/Greet.svelte";
 </script>
 
-<h1>Welcome to Tauri!</h1>
-
 <div class="row">
   <a href="https://vitejs.dev" target="_blank">
     <img src="/vite.svg" class="logo vite" alt="Vite Logo" />
@@ -22,12 +20,17 @@
   <Greet />
 </div>
 
-<style>
-  .logo.vite:hover {
-    filter: drop-shadow(0 0 2em #747bff);
-  }
+<footer>
+  <a href="/about">About my site</a>
+</footer>
 
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00);
+<style lang="scss">
+  .logo {
+    &.vite:hover {
+      filter: drop-shadow(0 0 2em #747bff);
+    }
+    &.svelte:hover {
+      filter: drop-shadow(0 0 2em #ff3e00);
+    }
   }
 </style>
